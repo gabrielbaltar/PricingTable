@@ -1,3 +1,132 @@
-* {
-    
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+    --background: #F9FBFC;
+    --text-card: #1E2338;
+    font-family: 'Open-Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: var(--background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+}
+
+.container .background-blue {
+    height: 30rem;
+    background: var(--blue);
+}
+
+.container-content {
+    width: 1105px;
+    height: 200px;
+    margin: auto auto;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 6.25rem;
+    color: var(--page-background);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.container-content p {
+    font-size: 1.125rem;
+    max-width: 58ch;
+    font-weight: 500;
+}
+
+.card-content {
+    margin: auto auto;
+    width: 1105px;
+    max-width: 100%;
+}
+
+.card {
+    height: 470px;
+    width: 355px;
+    background: var(--page-background);
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+#type-plan {
+    color: var(--text-card);
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+#type-price {
+    font-size: 2.25rem;
+    color: var(--text-card);
+    font-weight: 700;
+    display: block;
+    margin: 0px;
+    padding-top: 1.25rem;
+    padding-bottom: 0.8rem;
+}
+
+#type-price span{
+    font-size: 1.125rem;
+}
+
+#type-month {
+   font-weight: 400;
+   color: var(--gray);
+   margin: 0px;
+}
+
+.card-content #text-loren {
+    color: var(--gray);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0px;
+    margin-bottom: 2.5rem;
+}
+
+.card1-contet .plans .first {
+    display: flex;
+    align-items: center;
+    color: var(--gray);
+    height: 2rem;
+}
+
+.first p img {
+    margin-right: 1rem;
+}
+
+.card-button a {
+    width: 287px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--blue);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 6rem;
 }
