@@ -59,6 +59,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto auto;
     width: 1105px;
     max-width: 100%;
+    display: flex;
+    gap: 1.25rem;
+}
+
+.card:nth-child(2){
+    margin-top: -1rem;
 }
 
 .card {
@@ -129,4 +135,9 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-weight: 600;
     margin-top: 6rem;
+}
+
+.second a{
+    background-color: var(--blue);
+    color: var(--background);
 }
