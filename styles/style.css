@@ -151,6 +151,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 1rem;
 }
 
+.card-button {
+    display: flex;
+    justify-content: center;
+}
+
 .card-button a {
     width: 287px;
     height: 49px;
@@ -174,4 +179,52 @@ h1, h2, h3, h4, h5, h6 {
 
 .most-popular #type-plan {
     color: var(--blue);
+}
+
+@media only screen and (max-width: 1170px) {
+
+    
+    .card-content {
+        justify-content: center;
+    }
+
+    .card {
+        height: 470px;
+        width: 270px;
+        padding: 1.4rem;
+    }
+
+    .card-button a {
+        width: 200px;
+        height: 49px;
+        
+    }
+
+    .card .card1 .card1-contet:nth-child(2) {
+        padding: 0 1.4rem;
+    } 
+    
+}
+
+@media only screen and (max-width: 870px) {
+
+    
+
+    .card-content {
+        flex-wrap: wrap;
+    }
+
+    .container .background-blue {
+        height: 120rem;
+        background: var(--blue);
+    }
+
+    .container-content h1 {
+        padding: 0 1rem;
+        font-size: 2.5rem;
+    }
+    
+    .container-content p {
+       padding: 0 1.25rem;
+    }
 }
